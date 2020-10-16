@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- css end -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- load Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+
+
+<body>
+  <header>
+    <h1>Zonal Annual Means Dataset</h1>
+  </header>
+
+  <div id="chart_container">
+    <canvas id="chart"></canvas>
+  </div>
+
+  <div id="buttons">
+    <button id="hide_northern">View Northern Hemisphere Data</button>
+    <button id="hide_southern">View Southern Hemisphere Data</button>
+    <button id="update_years">Show data up to year: </button>
+    <input id='user_input' type="text" placeholder="Year" width="10px">
+    <a id="about" href="about.html">About the dataset</a>
+  </div>
+
+
+
+
+  <script src="script2.js"></script>
+</body>
+
+</html>

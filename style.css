@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY  */
+
+body {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  color: white;
+}
+
+/* BUTTONS */
+
+#buttons {
+  display: flex;
+  margin-top: 1em;
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+}
+
+button {
+  padding: 0.3em;
+  border-radius: 2px;
+  border: none;
+  color: white;
+}
+
+#hide_northern {
+  background: rgba(30, 0, 255, 0.938);
+  margin: 0 1em;
+}
+
+#hide_southern {
+  background: rgb(1, 110, 1);
+  margin-right: 1em;
+}
+
+#remove_years {
+  margin-right: 0.1em;
+}
+
+#hide_northern:hover {
+  background: rgba(81, 58, 255, 0.938);
+}
+
+#hide_southern:hover {
+  background: rgb(0, 159, 0);
+}
+
+#update_years {
+  background: rgb(213, 171, 115);
+}
+
+#user_input {
+  width: 5rem;
+}
+
+/* ABOUT DATASET */
+
+#about {
+  margin-left: auto;
+  color: white;
+}
+
+#about_container {
+  border: 1px solid white;
+  color: white;
+  margin: 1em;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+a {
+  color: crimson;
+}
